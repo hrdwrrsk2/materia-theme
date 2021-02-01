@@ -76,7 +76,7 @@ keypad {
 viewswitcher {
   &,
   button {
-    // margin: 0;
+    margin: 0;
     // padding: 0;
   }
 
@@ -94,7 +94,7 @@ viewswitcher {
     // View switcher button
     > stack > box {
       &.narrow {
-        // font-size: 0.75rem;
+        font-size: 75%;
         // padding-top: 7px;
         // padding-bottom: 5px;
 
@@ -106,7 +106,7 @@ viewswitcher {
       }
 
       &.wide {
-        // padding: 8px 12px;
+        padding: 0 $small-size+8;
 
         label {
           &:dir(ltr) {
